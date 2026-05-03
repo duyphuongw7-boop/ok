@@ -1,0 +1,49 @@
+{
+    "logs": [
+        "[11:01:19] \u26a0\ufe0f L\u1ed7i \u0111\u1ecdc file state: Expecting value: line 1 column 1 (char 0)",
+        "[11:01:19] \u26a0\ufe0f Ph\u00e1t hi\u1ec7n Bot Thread b\u1ecb d\u1eebng. \u0110ang kh\u1edfi \u0111\u1ed9ng l\u1ea1i...",
+        "[11:01:19] Thi\u1ebft l\u1eadp \u0111\u00f2n b\u1ea9y v\u00e0 margin...",
+        "[11:01:20] \u0110ang t\u1ea3i d\u1eef li\u1ec7u l\u1ecbch s\u1eed klines...",
+        "[11:01:21] \u2705 \u0110\u00e3 k\u1ebft n\u1ed1i WebSocket & User Data Stream th\u00e0nh c\u00f4ng!"
+    ],
+    "total_trades": 0,
+    "winning_trades": 0,
+    "gross_profit": 0.0,
+    "gross_loss": 0.0,
+    "total_pnl": 0.0,
+    "entry_fee": 0.0,
+    "current_position": "NONE",
+    "position_amt": 0.0,
+    "entry_price": 0.0,
+    "is_running": false,
+    "kill_switch": false,
+    "latest_indicators": {
+        "1h": {
+            "macd_t0": -2.08150226656244,
+            "macd_t1": -1.815218321248155,
+            "macd_t2": -1.2696646026151681,
+            "stoch_k_t0": 0.007863094701269812,
+            "stoch_k_t1": 0.0032956760513528304,
+            "stoch_d_t0": 0.02339447488276819,
+            "stoch_d_t1": 0.07620353710203544
+        },
+        "6h": {
+            "macd_t0": 5.00764527024915,
+            "macd_t1": 5.666413268717441,
+            "macd_t2": 4.839664149568577,
+            "stoch_k_t0": 0.877400052619886,
+            "stoch_k_t1": 0.8869822533658142,
+            "stoch_d_t0": 0.8597424435721228,
+            "stoch_d_t1": 0.8231209849745217
+        },
+        "1w": {
+            "macd_t0": 46.81400697251621,
+            "macd_t1": 34.407742821739134,
+            "macd_t2": 9.653683478884773,
+            "stoch_k_t0": 0.8426014193720888,
+            "stoch_k_t1": 0.7172520541155588,
+            "stoch_d_t0": 0.6919778835791779,
+            "stoch_d_t1": 0.5357503602900736
+        }
+    }
+}

@@ -1,0 +1,56 @@
+sudo apt update
+
+sudo apt install git -y          (cài git)
+
+
+
+git clone https://github.com/duyphuongw7-boop/bot_trade
+
+
+
+cd bot_ai
+
+
+
+nano .env                 (bấm Ctrl + O -> Enter -> Ctrl + X để lưu.)
+
+
+
+apt update && apt install -y python3-pip               (Cài python3)
+
+
+
+pip3 install fastapi uvicorn pandas requests ta python-binance python-dotenv jinja2 websockets
+
+
+# Bước 1: Tải và cấu hình kho lưu trữ của Node.js v20 từ NodeSource
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+
+# Bước 2: Cài đặt Node.js và NPM
+sudo apt-get install -y nodejs
+
+
+[ sudo apt-get install -o Dpkg::Options::="--force-overwrite" nodejs -y   (Cài node js)]
+
+
+
+sudo npm install pm2 -g
+
+
+
+pm2 start main.py --name "binance-bot" --interpreter python3   ( tạo bot_ai)
+
+
+pm2 restart binance-bot           (chạy bot)
+
+
+
+pm2 startup
+
+
+pm2 save 
+
+
+pm2 stop binance-bot (để tắt bot)
+
+htop  ( lệnh xem hiệu suất vps)
